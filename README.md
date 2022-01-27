@@ -26,7 +26,7 @@ func main() {
 	}
 	fmt.Printf("Remaining messages: %d\n", rem)
 
-	msg, err := texter.Send("+5555555555", "majmuncino")
+	msg, err := texter.Send("+5555555555", "test message")
 	if err != nil {
 		panic(err)
 	}
